@@ -1491,7 +1491,7 @@ flutter devices
 | 12 | เลื่อนดู Featured List แนวนอนบนหน้า Home (หลังทำ Checkpoint 4.3) | เห็นครบทุก Destination เลื่อนซ้าย-ขวาได้ลื่นไหล |✅|
 | 13 | พิมพ์ URL `/explore/destinations/999` ตรง ๆ (หลังทำ Checkpoint 5.1) | แสดงหน้า "ไม่พบข้อมูลที่ต้องการ" ไม่ใช่ Error สีแดง |✅|
 | 14 | กด Tab "เกี่ยวกับ" ที่เพิ่มใหม่ (หลังทำ Checkpoint 5.1) | เปลี่ยนไปหน้า AboutScreen ได้ |✅|
-| 15 | เทียบค่า `MediaQuery.size.width` กับ `constraints.maxWidth` (ตาม Checkpoint 4.1) | บันทึกค่าที่สังเกตได้และสรุปความแตกต่าง |✅|
+| 15 | เทียบค่า `MediaQuery.size.width` กับ `constraints.maxWidth` (ตาม Checkpoint 4.1) | บันทึกค่าที่สังเกตได้และสรุปความแตกต่าง |✅ จากการทดลอง Checkpoint 4.1 พบว่า MediaQuery.size.width มีค่า 1536.0 dp และ constraints.maxWidth มีค่า 1536.0 dp ซึ่งมีค่าเท่ากัน เนื่องจากหน้า Explore แสดงผลเต็มพื้นที่หน้าจอ ทำให้ความกว้างของหน้าจอโดยรวมและพื้นที่ที่ LayoutBuilder ได้รับจาก Parent มีขนาดเท่ากัน|
 
 ---
 
