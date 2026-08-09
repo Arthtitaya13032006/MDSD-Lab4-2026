@@ -484,8 +484,16 @@ class DestinationCard extends StatelessWidget {
 > 3. เขียน Comment สั้น ๆ ในโค้ดของตัวเองอธิบายว่าทำไมต้องใช้ `Positioned` คู่กับ `Stack` ถึงจะย้ายตำแหน่ง Badge ได้ (ถ้าใช้ `Positioned` นอก `Stack` จะเกิดอะไรขึ้น)
 
 บันทึกรูปผลการทดลอง
-```image
-บันทึกรูปโค้ด และรูปผลการทดลองที่นี่ (กรณีที่ยังไม่สามารถรันได้ ให้ทดลองจนถึงขั้นตอนที่สามารถ capture รูปได้และบันทึกรูปไว้ในส่วนนี้)
+
+<img width="801" height="882" alt="image" src="https://github.com/user-attachments/assets/670d4db0-503a-4585-acf7-3169cb90af5b" />
+<img width="831" height="832" alt="image" src="https://github.com/user-attachments/assets/3ef3eeb0-bd50-4279-9f22-5e249afd8bb8" />
+<img width="848" height="825" alt="image" src="https://github.com/user-attachments/assets/95afb9f4-7b03-43a6-ac0c-b73fe39d5191" />
+<img width="840" height="833" alt="image" src="https://github.com/user-attachments/assets/a88beaef-8b07-4746-ba9e-133a056deaf7" />
+<img width="848" height="832" alt="image" src="https://github.com/user-attachments/assets/7541a2c2-cd33-4578-8dc8-8d6adea9fa3b" />
+<img width="872" height="826" alt="image" src="https://github.com/user-attachments/assets/430afbc3-1990-48e7-bde9-e9f6afa97ea4" />
+<img width="842" height="611" alt="image" src="https://github.com/user-attachments/assets/98be8335-38f3-44a3-9f5a-4f8a2adf66a0" />
+<img width="1912" height="970" alt="image" src="https://github.com/user-attachments/assets/872bc03d-4188-4de9-8b20-d1ceac8ed126" />
+
 ```
 ---
 
