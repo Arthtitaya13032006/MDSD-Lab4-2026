@@ -1118,10 +1118,21 @@ class _StatCard extends StatelessWidget {
 > 3. เขียน Comment อธิบายว่าทำไมต้องใส่ `shrinkWrap: true` และ `NeverScrollableScrollPhysics()` เมื่อวาง `ListView` ซ้อนอยู่ใน `Column` ที่อยู่ใน `SingleChildScrollView` อีกที (จะเกิดอะไรขึ้นถ้าไม่ใส่)
 
 บันทึกรูปผลการทดลอง
-```image
-บันทึกรูปโค้ด และรูปผลการทดลองที่นี่ (กรณีที่ยังไม่สามารถรันได้ ให้ทดลองจนถึงขั้นตอนที่สามารถ capture รูปได้และบันทึกรูปไว้ในส่วนนี้)
-```
 
+<img width="837" height="875" alt="image" src="https://github.com/user-attachments/assets/0cc0e24c-0fa5-4b50-b329-b18e61871ba9" />
+<img width="832" height="823" alt="image" src="https://github.com/user-attachments/assets/4123aa93-3152-4ecd-9651-528e8d63f68e" />
+<img width="845" height="822" alt="image" src="https://github.com/user-attachments/assets/f93ba4a2-45ef-4580-b9fe-86f4cddc221e" />
+<img width="846" height="823" alt="image" src="https://github.com/user-attachments/assets/9d8d40b7-8f8f-4c25-9c53-e2719a47caef" />
+<img width="842" height="823" alt="image" src="https://github.com/user-attachments/assets/2b082110-ef36-4300-bcd6-ba00c0393b67" />
+<img width="842" height="822" alt="image" src="https://github.com/user-attachments/assets/45c3d517-4d5d-424f-82b8-8873d752c5ef" />
+<img width="842" height="822" alt="image" src="https://github.com/user-attachments/assets/babb2a5a-57f4-4320-b899-484678e54c7b" />
+<img width="852" height="820" alt="image" src="https://github.com/user-attachments/assets/5f4a219f-1d7d-4f6a-a051-c804e8cd5283" />
+<img width="837" height="826" alt="image" src="https://github.com/user-attachments/assets/32c6aef2-7631-4e8e-be67-3172781c1fb2" />
+<img width="843" height="818" alt="image" src="https://github.com/user-attachments/assets/f62ccee1-0af3-4d65-8dfc-ba25aac8e10c" />
+<img width="850" height="692" alt="image" src="https://github.com/user-attachments/assets/f7046ca2-7559-480b-99b5-7c4504d0e0dd" />
+<img width="1911" height="967" alt="image" src="https://github.com/user-attachments/assets/46fa8507-c612-408f-8b4c-c6157573d783" />
+
+```
 สร้างไฟล์ `lib/screens/saved_screen.dart`:
 
 ```dart
