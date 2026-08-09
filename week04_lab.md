@@ -1384,10 +1384,20 @@ final GoRouter appRouter = GoRouter(
 > 3. ทดสอบ Fallback ที่แก้ไข โดยรันแอปบน Chrome (`flutter run -d chrome`) แล้วพิมพ์ URL `/explore/destinations/999` ตรง ๆ ใน Address Bar (เป็น `id` ที่ไม่มีอยู่จริง) — ต้องเห็นหน้า "ไม่พบข้อมูลที่ต้องการ" ไม่ใช่ Error สีแดงหรือข้อมูลผิดตัว
 
 บันทึกรูปผลการทดลอง
-```image
-บันทึกรูปโค้ด และรูปผลการทดลองที่นี่ (กรณีที่ยังไม่สามารถรันได้ ให้ทดลองจนถึงขั้นตอนที่สามารถ capture รูปได้และบันทึกรูปไว้ในส่วนนี้)
-```
 
+<img width="851" height="910" alt="image" src="https://github.com/user-attachments/assets/c0d67b82-36d2-46f4-88b7-dd4a99eea109" />
+<img width="847" height="825" alt="image" src="https://github.com/user-attachments/assets/6e5d5d87-c4ea-4238-8119-4ff060fd09c2" />
+<img width="852" height="828" alt="image" src="https://github.com/user-attachments/assets/d08a95be-920f-4bbc-8f1f-0fbb0962760e" />
+<img width="855" height="845" alt="image" src="https://github.com/user-attachments/assets/5a96b3ac-0484-41f5-9512-b9a0416fe20e" />
+<img width="850" height="850" alt="image" src="https://github.com/user-attachments/assets/50e2117f-38c7-4f29-a308-1e239d621d85" />
+<img width="847" height="853" alt="image" src="https://github.com/user-attachments/assets/ad670e38-f7ec-4f10-85e4-f4a7daa25e6e" />
+<img width="847" height="528" alt="image" src="https://github.com/user-attachments/assets/f050e385-431b-4171-b0a5-0f081b39f1e6" />
+<img width="850" height="478" alt="image" src="https://github.com/user-attachments/assets/359c14a5-fe03-4495-9206-06a84ed003f6" />
+<img width="1913" height="970" alt="image" src="https://github.com/user-attachments/assets/114f6688-a319-4d10-8fcb-1864662f98a8" />
+<img width="1912" height="961" alt="image" src="https://github.com/user-attachments/assets/9b35f9e4-65ec-4832-9ef3-2ede721db59f" />
+
+```
+```
 
 #### ขั้นตอนที่ 5.2 — ตั้งค่า main.dart
 
