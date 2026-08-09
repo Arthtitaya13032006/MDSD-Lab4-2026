@@ -1585,10 +1585,30 @@ GoRoute(
 > 💡 **หลีกเลี่ยงการขอโค้ดทั้งไฟล์จาก AI** ให้ลองเขียนเองก่อน ถ้าติดจริง ๆ ให้ถามเป็นจุด ๆ ไป (เช่น "ทำไม setState ใน Widget อื่นไม่ทำให้ Saved Screen รีเฟรช") จะได้เรียนรู้มากกว่าการคัดลอกมาทั้งหมด
 
 บันทึกรูปผลการทดลอง
-```image
-บันทึกรูปโค้ด และรูปผลการทดลองที่นี่ 
+
+<img width="847" height="758" alt="image" src="https://github.com/user-attachments/assets/2e677728-fb3f-4dc8-85c6-e16d88f7e198" />
+<img width="847" height="898" alt="image" src="https://github.com/user-attachments/assets/60211f52-ae44-479c-af3b-6a1929248570" />
+<img width="837" height="827" alt="image" src="https://github.com/user-attachments/assets/dee25488-d26c-4511-b146-cf473f9f498d" />
+<img width="852" height="886" alt="image" src="https://github.com/user-attachments/assets/dcfc08f0-9ef1-40ae-a98c-67fb0e5a4cb7" />
+<img width="853" height="530" alt="image" src="https://github.com/user-attachments/assets/28ef28ac-5123-45a3-bc48-205d75e90691" />
+<img width="851" height="902" alt="image" src="https://github.com/user-attachments/assets/32813662-6c00-4e82-b2ae-8a63b7fb35aa" />
+<img width="858" height="830" alt="image" src="https://github.com/user-attachments/assets/9a162d66-706a-42d0-b944-1745e880088a" />
+<img width="848" height="831" alt="image" src="https://github.com/user-attachments/assets/026bdaab-516a-45b9-89f0-471f5bf90378" />
+<img width="850" height="827" alt="image" src="https://github.com/user-attachments/assets/9564f0ce-8435-4eb2-8143-de712bcc95d3" />
+<img width="846" height="831" alt="image" src="https://github.com/user-attachments/assets/8b930da8-60b5-4b2d-b120-76d57a628d6b" />
+<img width="847" height="827" alt="image" src="https://github.com/user-attachments/assets/823e7b64-d25f-4a18-9246-ee8da15404b2" />
+<img width="847" height="833" alt="image" src="https://github.com/user-attachments/assets/59fc7f2e-562c-4e44-907a-8ce181a7b8fc" />
+<img width="848" height="830" alt="image" src="https://github.com/user-attachments/assets/feed8778-b02a-4792-8dfb-d2dc0ff77eef" />
+<img width="842" height="595" alt="image" src="https://github.com/user-attachments/assets/f22cfeff-0116-4785-8f3e-b078b5d32384" />
+<img width="1915" height="973" alt="image" src="https://github.com/user-attachments/assets/482fb8f6-2cad-4418-a513-5768c3ea80fd" />
+<img width="1915" height="965" alt="image" src="https://github.com/user-attachments/assets/ba106a2b-276a-4785-a65b-7f01e7269482" />
+<img width="1912" height="958" alt="image" src="https://github.com/user-attachments/assets/1f774ae3-9062-4554-baf6-87ae5263e5e3" />
+<img width="1915" height="963" alt="image" src="https://github.com/user-attachments/assets/6cfb9709-4365-4715-9cdd-6cd93ef8d99b" />
+<img width="1913" height="970" alt="image" src="https://github.com/user-attachments/assets/fc2f2c2a-fc87-462e-a12e-40d3e612a00b" />
+
 ```
 ---
+```
 
 ## 📝 คำถามท้ายใบงาน
 
