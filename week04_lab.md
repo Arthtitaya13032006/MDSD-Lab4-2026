@@ -1616,23 +1616,50 @@ GoRoute(
 
 1. `LayoutBuilder` ต่างกับ `MediaQuery` อย่างไร? มีหลักการเลือกใช้แต่ละแบบในสถานการณ์ใด?
 ```text
+LayoutBuilder ใช้ดูขนาดพื้นที่ที่ Widget นั้นได้รับจริง ๆเหมาะกับการปรับ Layout ของ Widget เช่น จำนวน Column ของ Gridหรือการเปลี่ยนรูปแบบ Card ตามพื้นที่ที่มี
 
+ส่วน MediaQuery ใช้ดูข้อมูลของหน้าจอโดยรวม เช่น ความกว้าง ความสูงหรือการหมุนหน้าจอ
+
+ถ้าต้องการรู้ว่า Widget มีพื้นที่ให้ใช้เท่าไร ให้ใช้ LayoutBuilderแต่ถ้าต้องการรู้ข้อมูลของหน้าจอโดยรวม ให้ใช้ MediaQuery
 ```
 2. ทำไม Go Router ถึงใช้ `StatefulShellRoute` แทน `ShellRoute` ธรรมดา? ผลต่างเรื่อง State Management คืออะไร?
 ```text
-
+เพราะแอปมีหลายหน้าหลัก เช่น Explore, Saved และหน้าอื่น ๆ StatefulShellRoute สามารถแยก Navigation Stack ของแต่ละหน้าไว้ได้ เช่น ถ้าเราอยู่หน้า Explore แล้วกดไปหน้าอื่น
+พอกลับมาที่ Explore ก็ยังอยู่ตำแหน่งเดิม และ State ของหน้านั้นยังอยู่ แต่ ShellRoute ธรรมดาจะไม่ได้จัดการ State ของแต่ละ Branch แบบแยกกัน ทำให้เมื่อเปลี่ยนหน้าอาจต้องสร้างหน้าใหม่อีกครั้ง
 ```
 3. ในโค้ด `DestinationCard` เหตุใดจึงใช้ `Expanded` ครอบ `Text` ชื่อ Destination ? จะเกิดอะไรขึ้นถ้าลบออก?
 ```text
-
+ใช้ Expanded เพื่อให้ Text ชื่อ Destination สามารถใช้พื้นที่ที่เหลือ ภายใน Row ได้ และช่วยป้องกันข้อความไปชนกับ Widget อื่น เช่น ปุ่มหัวใจ ถ้าลบ Expanded ออก แล้วชื่อสถานที่ยาวเกินพื้นที่ Text อาจล้นออกนอกพื้นที่ หรือเกิดปัญหา RenderFlex overflow ทำให้หน้าจอมีแถบเหลืองดำแจ้งเตือน
 ```
 4. การส่งข้อมูลผ่าน `extra` ของ Go Router มีข้อจำกัดอะไรกรณี Deep Link / Web Refresh? และแก้ปัญหานี้ได้อย่างไร?
 ```text
-
+extra เป็นการส่ง Object ไปพร้อมกับการ Navigate ภายในแอป แต่ข้อมูลใน extra ไม่ได้อยู่ใน URL ดังนั้นถ้าเปิดหน้าแบบ Deep Link หรือกด Refresh บน Web ข้อมูลที่อยู่ใน extra อาจหายไป ทำให้หน้า Detail ไม่มีข้อมูลที่ต้องใช้ วิธีแก้คือส่ง ID ของ Destination ไปใน URL เช่น /destination/123 แล้วให้หน้า Detail ใช้ ID นี้ไปดึงข้อมูลจาก Database หรือ API อีกครั้ง ส่วน extra สามารถใช้เพื่อส่งข้อมูลที่มีอยู่แล้วเพื่อให้เปิดหน้าได้เร็วขึ้น แต่ไม่ควรพึ่ง extra อย่างเดียวถ้าต้องรองรับ Deep Link หรือ Web Refresh
 ```
 5. วาด Navigation Hierarchy ของแอปนี้ (สามารถวาดบนกระดาษแล้วถ่ายรูปส่งได้)
 ```text
-
+GoRouter (Root Navigation)
+└── StatefulShellRoute.indexedStack
+    │   └── Bottom Navigation
+    │
+    ├── Branch 0 : Home
+    │   └── '/' → HomeScreen
+    │
+    ├── Branch 1 : Explore
+    │   └── '/explore' → ExploreScreen
+    │       └── 'destinations/:id'
+    │           └── DestinationDetailScreen
+    │               ├── กดหัวใจ → บันทึก
+    │               └── กดจองเลย
+    │                   └── Booking Dialog
+    │                       └── กลับหน้า Home
+    │
+    ├── Branch 2 : Saved
+    │   └── '/saved' → SavedScreen
+    │       └── Saved Destination
+    │           └── DestinationDetailScreen
+    │
+    └── Branch 3 : Profile
+        └── '/profile' → ProfileScreen
 ```
 ---
 
