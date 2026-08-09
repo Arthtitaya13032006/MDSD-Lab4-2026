@@ -1132,7 +1132,7 @@ class _StatCard extends StatelessWidget {
 <img width="850" height="692" alt="image" src="https://github.com/user-attachments/assets/f7046ca2-7559-480b-99b5-7c4504d0e0dd" />
 <img width="1911" height="967" alt="image" src="https://github.com/user-attachments/assets/46fa8507-c612-408f-8b4c-c6157573d783" />
 
-```
+
 สร้างไฟล์ `lib/screens/saved_screen.dart`:
 
 ```dart
