@@ -1227,6 +1227,8 @@ class ProfileScreen extends StatelessWidget {
   }
 }
 ```
+บันทึกรูปผลการทดลอง
+<img width="1913" height="967" alt="image" src="https://github.com/user-attachments/assets/90a0f934-e829-4b37-a9d1-855e2833d8ec" />
 
 ---
 
