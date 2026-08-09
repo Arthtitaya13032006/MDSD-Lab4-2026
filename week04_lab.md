@@ -648,10 +648,17 @@ class _ExploreScreenState extends State<ExploreScreen> {
 > 3. สังเกตว่าค่าทั้งสองตัวเท่ากันหรือไม่ แล้วเขียนสรุป 2-3 บรรทัดเป็น Comment ในโค้ดว่า `MediaQuery.of(context).size.width` (ความกว้างของทั้งหน้าจอ) กับ `LayoutBuilder` `constraints.maxWidth` (ความกว้างที่ Widget นั้น ๆ ได้รับจาก Parent) ต่างกันอย่างไร และควรเลือกใช้ตัวไหนเมื่อไหร่
 
 บันทึกรูปผลการทดลอง
-```image
-บันทึกรูปโค้ด และรูปผลการทดลองที่นี่ (กรณีที่ยังไม่สามารถรันได้ ให้ทดลองจนถึงขั้นตอนที่สามารถ capture รูปได้และบันทึกรูปไว้ในส่วนนี้)
-```
 
+<img width="828" height="881" alt="image" src="https://github.com/user-attachments/assets/3a5eff34-525f-4d9d-a74e-cb4c6a62c02d" />
+<img width="842" height="826" alt="image" src="https://github.com/user-attachments/assets/14ae6ad7-683b-4c7b-a1b9-1e37a8537854" />
+<img width="841" height="823" alt="image" src="https://github.com/user-attachments/assets/f38a53ed-1270-4d65-9b0a-114b1b4cf14d" />
+<img width="842" height="828" alt="image" src="https://github.com/user-attachments/assets/c39f9115-d5a0-45c2-81bb-5ef446d495b9" />
+<img width="847" height="823" alt="image" src="https://github.com/user-attachments/assets/f36bc2fc-532c-4bf5-ac44-03ae45e36be4" />
+<img width="857" height="607" alt="image" src="https://github.com/user-attachments/assets/0f6a9542-bd96-45ad-a784-6d18ac41e628" />
+<img width="1916" height="967" alt="image" src="https://github.com/user-attachments/assets/119d9a4a-7d5b-41bb-8d54-5c93af216f58" />
+
+```
+```
 #### ขั้นตอนที่ 4.2 — Destination Detail Screen
 
 สร้างไฟล์ `lib/screens/destination_detail_screen.dart`:
